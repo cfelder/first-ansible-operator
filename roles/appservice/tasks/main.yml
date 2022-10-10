@@ -1,2 +1,6 @@
 ---
 # tasks file for AppService
+
+- name: Print vars
+  debug:
+    var: vars
