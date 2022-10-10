@@ -3,4 +3,9 @@ kind: AppService
 metadata:
   name: appservice-sample
 spec:
-  foo: bar
+  teams:
+    - name: jcns2022-treff
+      mentors:
+        - c.felder@fz-juelich.de
+      trainees:
+        - treff1@mlz-garching.de
