@@ -1,0 +1,7 @@
+---
+# Use the 'create api' subcommand to add watches to this file.
+- version: v1alpha1
+  group: app.fz-juelich.de
+  kind: AppService
+  playbook: playbooks/appservice.yml
+#+kubebuilder:scaffold:watch
